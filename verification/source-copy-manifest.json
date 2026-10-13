@@ -1,0 +1,57 @@
+{
+  "capturedAt": "2026-10-13T17:27:54.010Z",
+  "files": {
+    "index.html": {
+      "sha256": "6e5e64b26ff354b7f814779e7791bc327f57a87a0d90d1e6733d6f2b92fb4a5c",
+      "bytes": 2417
+    },
+    "styles.css": {
+      "sha256": "8852c2645d111d9c61e55f1cd4066a560257c0a055198cebf5f57db6fac141c2",
+      "bytes": 3166
+    },
+    "core.js": {
+      "sha256": "fa9c5b005539e026597dec6c57da2b3d32fd6c9695cb460327e0e05dd328038f",
+      "bytes": 3606
+    },
+    "app.js": {
+      "sha256": "35365690cd44844463525c68eaced5e0f3a71f6e51b3417f75df7dd8451d308d",
+      "bytes": 7100
+    },
+    "app.test.js": {
+      "sha256": "397e4b640520483ec7242c19264b37c11019eaefa14125180371554a97824141",
+      "bytes": 9065
+    },
+    "README.md": {
+      "sha256": "0a9a48491989042588108e3bf2884310350fe93cca0b790e70503de627acfd38",
+      "bytes": 2076
+    },
+    "evidence/generated-source.json": {
+      "sha256": "30ec653eb5a636529fb498ae2c72b0d6beedbded58dfb30db6b060decda9260c",
+      "bytes": 17210
+    },
+    "evidence/generated-source-sha256.json": {
+      "sha256": "6a27de48b4bc5005c47365a1de88e97726ccbb810d813b4ffb99557591bd766c",
+      "bytes": 500
+    },
+    "evidence/reviewed-source-sha256.json": {
+      "sha256": "63378f72c221e2f6dd4f31e02b1fc9ff80d3ffb6247d581154c97bf829495485",
+      "bytes": 500
+    },
+    "evidence/PROVENANCE.md": {
+      "sha256": "a00fef74d37fac29dabc5fafba049ff54e58891a3de18bfd2062f97f414de071",
+      "bytes": 3093
+    },
+    "evidence/REVIEW.md": {
+      "sha256": "18f897b5505fbac0f431681a79daca7b3419b0fe52ad854f0aa8f6166f9fe676",
+      "bytes": 1309
+    },
+    "evidence/json-stream-prompt.txt": {
+      "sha256": "ed2df112db94044eed6c32fc3ca488131fcdb160001c0e0807683809084f6f71",
+      "bytes": 1446
+    },
+    "evidence/copilot-stream-usage.json": {
+      "sha256": "e74bf9940b3bf87b0198e801925ce21492eb5b490e4f869f614c20386cc607c1",
+      "bytes": 2103
+    }
+  }
+}

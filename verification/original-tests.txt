@@ -1,0 +1,21 @@
+✔ sanitizes invalid, duplicate, unknown, and oversized state values (1.119875ms)
+✔ summarizes selected work and over-budget status (0.078833ms)
+✔ reports corrupt and inaccessible storage while returning safe state (0.114583ms)
+✔ reports quota failure and sanitizes what it writes (0.090667ms)
+✔ validates task shape and minute boundaries (0.054708ms)
+✔ rejects malformed entries without losing valid stored tasks (0.0595ms)
+✔ handles prototype-like IDs, empty selection, exact budget and fractional minutes (0.068625ms)
+✔ bounds task counts and persisted IDs (0.358459ms)
+✔ catches unavailable stores and throwing method getters (0.103ms)
+✔ UI survives a blocked localStorage getter and keeps its warning after adding (1.19575ms)
+✔ UI reports quota failure separately from successful in-memory edits (0.468ms)
+✔ UI preserves checkbox focus and resets editing when the edited task is removed (0.42375ms)
+✔ UI displays stored custom sprint minutes and keeps them after invalid input (0.368583ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 71.193875

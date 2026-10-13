@@ -1,0 +1,11 @@
+--- a/app.js
++++ b/app.js
+@@ -110,7 +110,7 @@
+   els.sprint.addEventListener('change', function () {
+     var minutes = Number(els.sprint.value);
+     if (!Number.isInteger(minutes) || minutes < 1 || minutes > 480) {
+-      els.sprint.value = String(state.sprintMinutes); els.sprint.setAttribute('aria-invalid', 'true');
++      els.sprint.value = String(state.sprintMinutes); els.sprint.setAttribute('aria-invalid', 'false');
+       show('Sprint length must be a whole number from 1 to 480 minutes. Your previous length was kept.', 'error'); return;
+     }
+     els.sprint.setAttribute('aria-invalid', 'false'); state.sprintMinutes = minutes;

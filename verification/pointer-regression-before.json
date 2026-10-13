@@ -1,0 +1,8 @@
+{
+  "test": "changing sprint retains pending checkbox and Edit targets",
+  "baseline": "reviewed source before summary-only sprint rendering",
+  "exitCode": 1,
+  "expectedFailureObserved": true,
+  "expectedFailure": "Sprint blur must not replace the checkbox before its click",
+  "note": "Only status and the assertion are published; local stack traces and paths are excluded."
+}

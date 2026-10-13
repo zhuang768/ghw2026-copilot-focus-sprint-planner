@@ -1,0 +1,20 @@
+✔ complete plan persists and reloads after create/select/edit/sprint/remove/clear (3.84025ms)
+✔ cancel edit retains stored values and returns form to create mode (1.047125ms)
+✔ 100-task limit rejects a new task, permits edit, and recovers after removal (2.131708ms)
+✔ invalid form inputs leave valid persisted data intact and identify the input (0.481375ms)
+✔ sprint boundaries and invalid-change recovery preserve selected work (0.529ms)
+✔ stored markup stays literal and selected prototype-like IDs remain usable (0.472084ms)
+✔ removing the task being edited clears edit state without changing a surviving task (0.536ms)
+✔ sanitizer and summary maintain invariants across deterministic malformed-state samples (13.252166ms)
+✔ captured files match reviewed manifest and Copilot source matches original manifest (1.050041ms)
+✔ entrypoint declares only present local resources and every UI lookup has a unique ID (0.47925ms)
+✔ restoring a valid sprint value clears its invalid accessibility marker (0.484167ms)
+✔ changing sprint retains pending checkbox and Edit targets (0.484167ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 89.266042
