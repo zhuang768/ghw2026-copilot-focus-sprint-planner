@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Focus Sprint Planner</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <p class="eyebrow">Offline planning tool</p>
+      <h1>Focus Sprint Planner</h1>
+      <p class="intro">Choose a sprint, select a few tasks, and make the next block of time clear.</p>
+    </header>
+
+    <section class="panel" aria-labelledby="sprint-heading">
+      <div class="section-heading">
+        <h2 id="sprint-heading">Your sprint</h2>
+        <label for="sprint-length">Sprint length</label>
+        <input id="sprint-length" type="number" min="1" max="480" step="1" value="25" aria-describedby="feedback" aria-label="Sprint length in minutes">
+      </div>
+      <div id="summary" class="summary" aria-live="polite"></div>
+      <button id="clear-selection" class="quiet" type="button">Clear selection</button>
+    </section>
+
+    <section class="panel" aria-labelledby="tasks-heading">
+      <div class="section-heading">
+        <h2 id="tasks-heading">Tasks</h2>
+        <span id="task-count" class="muted"></span>
+      </div>
+      <p id="feedback" class="feedback" role="status" aria-live="polite"></p>
+      <p id="storage-status" class="storage-status" role="status" aria-live="polite">Your plan stays in this browser.</p>
+      <form id="task-form" novalidate>
+        <input type="hidden" id="editing-id">
+        <div class="form-grid">
+          <div>
+            <label for="task-title">Task title</label>
+            <input id="task-title" name="title" maxlength="100" required autocomplete="off" aria-describedby="feedback">
+          </div>
+          <div>
+            <label for="task-minutes">Minutes</label>
+            <input id="task-minutes" name="minutes" type="number" min="1" max="480" step="1" required aria-describedby="feedback">
+          </div>
+        </div>
+        <div class="form-actions">
+          <button id="save-task" type="submit">Add task</button>
+          <button id="cancel-edit" class="quiet" type="button" hidden>Cancel</button>
+        </div>
+      </form>
+      <ul id="task-list" class="task-list"></ul>
+      <p id="empty" class="empty">No tasks yet. Add one to begin.</p>
+    </section>
+  </main>
+  <script src="core.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
